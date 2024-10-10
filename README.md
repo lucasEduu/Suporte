@@ -1,4 +1,12 @@
 ## SUPORTE ##
+---
 - O programa acima foi um trabalho realizado em dupla para a matéria de AED1 2023/2.
 - Ele consiste em criar um programa interativo via terminal, nesse caso, um programa de registro de chamados em um empresa.
 - Os dados foram armazenados em vetores e matrizes, que podem ou não ser alocadas dinamicamente, além do uso de ponteiros ao longo das funções.
+---
+- O programa funciona da seguinte forma:
+    - É possível registrar o código de um problema e a descrição do problema. Isso se deve ao fato de que dentro de empresas alguns problemas são comuns e podem ocorrer com certa frequência.
+    -  É possível também registrar o código de um setor da empresa, assim como o nome desse setor. Em empresas, o setor X pode fazer um "chamado" para o problema Y, registrado ou não anteriormente.
+    - __O código, infelizmente, não possui o tratamento de erro caso alguém tente realizar um chamado sem que haja ao menos um problema ou ao menos um setor registrado. Então, é presumido que sempre haverá problemas e setores registrados antes de relizar um chamado.__
+    - Após registrar ao menos um problema e ao menos um setor, é possível registrar chamados. Por exemplo, o setor de código 2 (ex: Secretaria) pode registrar o problema 3 (ex: Problema na impressora).
+    - É possível imprimir os setores, problemas e chamados registrados.
